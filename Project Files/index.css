@@ -1,0 +1,74 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background:#89a8df;
+}
+
+a{
+  text-decoration:none;
+}
+
+.li{
+  color: #fff;
+}
+
+.card{
+  border:none;
+  border-radius:15px;
+  transition:.3s;
+}
+.cabs-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.cab-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 250px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+.btn-primary{
+  background:#0d6efd;
+  border:none;
+}
+
+.btn-primary:hover{
+  background:#1e40af;
+}
+
+.btn-warning{
+  background:#2563eb;
+  color:white;
+  border:none;
+}
+
+.btn-warning:hover{
+  background:#1d4ed8;
+  color:white;
+}
+
+.table{
+  border-radius:12px;
+  overflow:hidden;
+}
+
+.container{
+  padding-top:30px;
+  padding-bottom:30px;
+}
